@@ -5,14 +5,20 @@
     <meta name="viexport" content="width=device-width, initial-scale=1.@"
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="style" type="text/css" href="style.css">
+    <script type="text/javascript">
+    function loginpassword(s) {
+        if (s=="Haizhsu87()8") { location.href = "server.html"}
+        else { alert("入力された暗証番号が違います")}
+    }
+    </script>
 </head>
 <body>
 <h1>ログイン</h1>
 <p>
 <label for="name">name</label>
 <input type="text" name="namae" id="name"><br>
-<label for="password">password</label>
-<input type="text" name="namae" id="password"><br>
+<label for="name">password</label>
+<input type="password" name="password" size="20" id="password" on=" loginpassword(this.value)" value="" <br>
 </p>
 </body>
 </html>
